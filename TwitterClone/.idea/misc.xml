@@ -4,17 +4,19 @@
     <option name="filePathToZoomLevelMap">
       <map>
         <entry key="..\:/Users/user/AndroidStudioProjects/TwitterClone/app/src/main/res/drawable/background.xml" value="0.2115" />
+        <entry key="..\:/Users/user/AndroidStudioProjects/TwitterClone/app/src/main/res/drawable/ic_launcher_background.xml" value="0.2115" />
         <entry key="..\:/Users/user/AndroidStudioProjects/TwitterClone/app/src/main/res/drawable/item_background.xml" value="0.2115" />
         <entry key="..\:/Users/user/AndroidStudioProjects/TwitterClone/app/src/main/res/drawable/item_post_back.xml" value="0.2115" />
         <entry key="..\:/Users/user/AndroidStudioProjects/TwitterClone/app/src/main/res/layout/activity_main.xml" value="0.20416666666666666" />
-        <entry key="..\:/Users/user/AndroidStudioProjects/TwitterClone/app/src/main/res/layout/fragment_create.xml" value="0.25" />
+        <entry key="..\:/Users/user/AndroidStudioProjects/TwitterClone/app/src/main/res/layout/activity_profile.xml" value="0.1286231884057971" />
+        <entry key="..\:/Users/user/AndroidStudioProjects/TwitterClone/app/src/main/res/layout/fragment_create.xml" value="0.2" />
         <entry key="..\:/Users/user/AndroidStudioProjects/TwitterClone/app/src/main/res/layout/fragment_login.xml" value="0.25" />
         <entry key="..\:/Users/user/AndroidStudioProjects/TwitterClone/app/src/main/res/layout/fragment_posts.xml" value="0.18" />
         <entry key="..\:/Users/user/AndroidStudioProjects/TwitterClone/app/src/main/res/layout/fragment_profile.xml" value="0.18" />
         <entry key="..\:/Users/user/AndroidStudioProjects/TwitterClone/app/src/main/res/layout/item_post.xml" value="0.1675213675213675" />
         <entry key="..\:/Users/user/AndroidStudioProjects/TwitterClone/app/src/main/res/layout/item_post2.xml" value="0.33" />
         <entry key="..\:/Users/user/AndroidStudioProjects/TwitterClone/app/src/main/res/menu/menu_logout.xml" value="0.25" />
-        <entry key="..\:/Users/user/AndroidStudioProjects/TwitterClone/app/src/main/res/menu/menu_posts.xml" value="0.25" />
+        <entry key="..\:/Users/user/AndroidStudioProjects/TwitterClone/app/src/main/res/menu/menu_posts.xml" value="0.33" />
       </map>
     </option>
   </component>

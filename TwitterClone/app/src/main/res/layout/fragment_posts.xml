@@ -25,7 +25,7 @@
         android:id="@+id/fabCreate"
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
-        app:fabCustomSize="80dp"
+        app:fabCustomSize="50dp"
         android:layout_marginEnd="16dp"
         android:layout_marginBottom="16dp"
         android:clickable="true"
