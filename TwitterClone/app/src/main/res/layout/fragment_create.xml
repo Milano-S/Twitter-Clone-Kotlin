@@ -7,23 +7,47 @@
     android:background="@color/black"
     tools:context=".CreateFragment">
 
-    <EditText
-        android:id="@+id/etTweet"
+    <LinearLayout
+        android:id="@+id/linearLayout"
         android:layout_width="match_parent"
+        android:layout_margin="20dp"
         android:layout_height="wrap_content"
-        android:layout_marginStart="40dp"
-        android:layout_marginEnd="40dp"
-        android:elevation="10dp"
-        android:hint="Enter Post"
-        android:minHeight="48dp"
-        android:textColor="@color/white"
-        android:textColorHint="@color/white"
+        android:background="@drawable/item_post_back"
+        android:gravity="center"
+        android:orientation="vertical"
         app:layout_constraintBottom_toBottomOf="parent"
         app:layout_constraintEnd_toEndOf="parent"
         app:layout_constraintHorizontal_bias="0.5"
         app:layout_constraintStart_toStartOf="parent"
         app:layout_constraintTop_toTopOf="parent"
-        app:layout_constraintVertical_bias="0.43" />
+        app:layout_constraintVertical_bias="0.37">
+
+
+        <TextView
+            android:id="@+id/textViewUserName"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_margin="10dp"
+            android:text="UserName"
+            android:textStyle="bold" />
+
+        <TextView
+            android:id="@+id/textViewUploadTime"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginStart="10dp"
+            android:layout_marginEnd="10dp"
+            android:layout_marginBottom="10dp"
+            android:text="upload time" />
+
+        <EditText
+            android:id="@+id/etTweet"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_margin="10dp"
+            android:hint="Enter Your Tweet"
+            android:textSize="20sp" />
+    </LinearLayout>
 
     <Button
         android:id="@+id/buttonPost"
@@ -34,6 +58,6 @@
         app:layout_constraintEnd_toEndOf="parent"
         app:layout_constraintHorizontal_bias="0.5"
         app:layout_constraintStart_toStartOf="parent"
-        app:layout_constraintTop_toBottomOf="@+id/etTweet" />
+        app:layout_constraintTop_toBottomOf="@+id/linearLayout" />
 
 </androidx.constraintlayout.widget.ConstraintLayout>

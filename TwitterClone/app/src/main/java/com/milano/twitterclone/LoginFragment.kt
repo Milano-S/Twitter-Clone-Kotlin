@@ -22,6 +22,10 @@ class LoginFragment : Fragment() {
         savedInstanceState: Bundle?
     ): View? {
         // Inflate the layout for this fragment
+        val auth = FirebaseAuth.getInstance()
+        if (auth.currentUser != null) {
+            goPostsActivity()
+        }
         return inflater.inflate(R.layout.fragment_login, container, false)
     }
 
