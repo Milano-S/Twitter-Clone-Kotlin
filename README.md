@@ -7,4 +7,4 @@ A twitter app clone written in Kotlin and hosted with FireBase. Includes email a
 👽added a profile page to see signed in users posts only\
 👽new create post screen \
 👽added profile menu item \
-👽reduced the add button size \
+👽reduced the add button size
