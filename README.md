@@ -8,6 +8,3 @@ A twitter app clone written in Kotlin and hosted with FireBase. Includes email a
 👽new create post screen \
 👽added profile menu item \
 👽reduced the add button size \
-👽firebase posts queries on profile page not working.....yet \
-👽delete posts ability soon...\
-👽image upload soon...?
